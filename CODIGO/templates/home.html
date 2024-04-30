@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOME</title>
+    <!-- Adicione os estilos do Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        body {
+            background-color: #212121; 
+            color: #ffffff; 
+        }
+
+        .container {
+            text-align: center; 
+            margin-top: 100px; 
+        }
+
+        h1 {
+            font-size: 3em; 
+        }
+
+        p {
+            font-size: 1.2em; 
+        }
+
+        ul li {
+            list-style: none; 
+        }
+
+        a {
+            color: #ffffff; 
+            text-decoration: none; 
+            transition: color 0.3s; 
+            margin: 2px;
+        }
+
+        a:hover {
+            color: #ea6208; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SEJA BEM VINDO A PÁGINA INICIAL!</h1>
+        <p>FAÇA LOGIN OU SE CADASTRE:</p>
+        <ul>
+            <li><a class="btn waves-effect waves-light" href="{{ url_for('login') }}">LOGIN</a></li>
+            <li><a class="btn waves-effect waves-light" href="{{ url_for('cadastro') }}">CADASTRO</a></li>
+        </ul>
+    </div>
+
+    <!-- Adicione os scripts do Materialize CSS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
