@@ -74,7 +74,7 @@ Este aplicativo é um sistema de autenticação básico desenvolvido usando o fr
 
 6. [**Jinja2**:](https://jinja.palletsprojects.com/) Jinja2 é um mecanismo de template em Python usado pelo Flask para renderizar os templates HTML. Ele fornece recursos poderosos, como herança de templates, expressões condicionais e loops, para criar templates dinâmicos.
 
-7. [**MATERIALIZECSS:**](https://materializecss.com/) Um framework front-end popular para desenvolvimento de interfaces de usuário responsivas e estilizadas.
+7. [**MATERIALIZECSS:**](https://github.com/VILHALVA/CURSO-DE-MATERIALIZECSS) Um framework front-end popular para desenvolvimento de interfaces de usuário responsivas e estilizadas.
 
 ## CREDITOS:
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
