@@ -61,19 +61,23 @@ Este aplicativo é um sistema de autenticação básico desenvolvido usando o fr
    - **Customização**: Você pode personalizar a aplicação alterando os arquivos HTML, adicionando novas rotas, criando novos modelos de dados, etc.
 
 ## TECNOLOGIAS USADAS:
-1. [**Flask**:](https://github.com/VILHALVA/CURSO-DE-FLASK) Flask é um framework web leve em Python que facilita a criação de aplicativos web. Ele fornece recursos essenciais para desenvolver aplicativos web, como roteamento de URL, gerenciamento de sessão e suporte a templates.
+1. [**Python**:](https://github.com/VILHALVA/CURSO-DE-PYTHON) Python é uma linguagem de Programação.
 
-2. [**SQLAlchemy**:](https://flask-sqlalchemy.palletsprojects.com) SQLAlchemy é uma biblioteca ORM (Object-Relational Mapping) em Python que fornece uma maneira de interagir com bancos de dados relacionais de forma orientada a objetos. Ele simplifica a manipulação e a consulta de dados do banco de dados, fornecendo uma abstração de alto nível sobre o SQL.
+2. [**Flask**:](https://github.com/VILHALVA/CURSO-DE-FLASK) Flask é um framework web leve em Python que facilita a criação de aplicativos web. Ele fornece recursos essenciais para desenvolver aplicativos web, como roteamento de URL, gerenciamento de sessão e suporte a templates.
 
-3. [**Werkzeug**:](https://werkzeug.palletsprojects.com/) Werkzeug é uma biblioteca WSGI (Web Server Gateway Interface) em Python que fornece utilitários para lidar com solicitações HTTP, autenticação, segurança e outros aspectos do desenvolvimento web.
+3. [**SQLAlchemy**:](https://flask-sqlalchemy.palletsprojects.com) SQLAlchemy é uma biblioteca ORM (Object-Relational Mapping) em Python que fornece uma maneira de interagir com bancos de dados relacionais de forma orientada a objetos. Ele simplifica a manipulação e a consulta de dados do banco de dados, fornecendo uma abstração de alto nível sobre o SQL.
 
-4. [**SQLite**:](https://github.com/VILHALVA/CURSO-DE-SQLITE) SQLite é um banco de dados SQL embutido que não requer um servidor separado. Ele é amplamente utilizado para desenvolvimento local e pequenos aplicativos web devido à sua simplicidade e facilidade de uso.
+4. [**Werkzeug**:](https://werkzeug.palletsprojects.com/) Werkzeug é uma biblioteca WSGI (Web Server Gateway Interface) em Python que fornece utilitários para lidar com solicitações HTTP, autenticação, segurança e outros aspectos do desenvolvimento web.
 
-5. [**HTML e CSS**:](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS) HTML (Hypertext Markup Language) é a linguagem de marcação usada para estruturar o conteúdo de uma página web, enquanto CSS (Cascading Style Sheets) é usada para estilizar a aparência da página. No aplicativo, templates HTML são usados para renderizar as páginas web e o CSS é utilizado para estilizá-las.
+5. [**SQLite**:](https://github.com/VILHALVA/CURSO-DE-SQLITE) SQLite é um banco de dados SQL embutido que não requer um servidor separado. Ele é amplamente utilizado para desenvolvimento local e pequenos aplicativos web devido à sua simplicidade e facilidade de uso.
 
-6. [**Jinja2**:](https://jinja.palletsprojects.com/) Jinja2 é um mecanismo de template em Python usado pelo Flask para renderizar os templates HTML. Ele fornece recursos poderosos, como herança de templates, expressões condicionais e loops, para criar templates dinâmicos.
+6. [**Python com SQLITE**:](https://github.com/VILHALVA/CURSO-DE-PYTHON-COM-SQLITE) Python é uma linguagem de Programação, enquanto SQLite é um banco de dados.
 
-7. [**MATERIALIZECSS:**](https://github.com/VILHALVA/CURSO-DE-MATERIALIZECSS) Um framework front-end popular para desenvolvimento de interfaces de usuário responsivas e estilizadas.
+7. [**HTML e CSS**:](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS) HTML (Hypertext Markup Language) é a linguagem de marcação usada para estruturar o conteúdo de uma página web, enquanto CSS (Cascading Style Sheets) é usada para estilizar a aparência da página. No aplicativo, templates HTML são usados para renderizar as páginas web e o CSS é utilizado para estilizá-las.
+
+8. [**Jinja2**:](https://jinja.palletsprojects.com/) Jinja2 é um mecanismo de template em Python usado pelo Flask para renderizar os templates HTML. Ele fornece recursos poderosos, como herança de templates, expressões condicionais e loops, para criar templates dinâmicos.
+
+8. [**MATERIALIZECSS:**](https://github.com/VILHALVA/CURSO-DE-MATERIALIZECSS) Um framework front-end popular para desenvolvimento de interfaces de usuário responsivas e estilizadas.
 
 ## CREDITOS:
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
