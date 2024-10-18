@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>HOME</title>
+    <title>Olimpyanos</title>
     <!-- Adicione os estilos do Materialize CSS -->
+         <!-- O comentário acima estava no código original e não quis remover -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <style>
         body {
-            background-color: #212121; 
-            color: #ffffff; 
+            background-color: #333; 
+            color: #fff; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            margin: 0; 
         }
-
         .container {
             text-align: center; 
-            margin-top: 100px; 
+            max-width: 600px; 
+            padding: 20px; 
+            border-radius: 10px; 
+            background-color: #444; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
         }
 
         h1 {
@@ -35,17 +44,18 @@
         }
 
         a:hover {
-            color: #ea6208; 
+            color: #0fea08; 
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>SEJA BEM VINDO A PÁGINA INICIAL!</h1>
-        <p>FAÇA LOGIN OU SE CADASTRE:</p>
+        <h1>BORA PRO TREINO</h1>
         <ul>
             <li><a class="btn waves-effect waves-light" href="{{ url_for('login') }}">LOGIN</a></li>
             <li><a class="btn waves-effect waves-light" href="{{ url_for('cadastro') }}">CADASTRO</a></li>
+            <li><a class="btn waves-effect waves-light" href="{{ url_for('NOVIP') }}">LOGIN VIP</a></li>
+            <li><a class="btn waves-effect waves-light" href="{{ url_for('NOVIP') }}">CADASTRO VIP</a></li>
         </ul>
     </div>
 

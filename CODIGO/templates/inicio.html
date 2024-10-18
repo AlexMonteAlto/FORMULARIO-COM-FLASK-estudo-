@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INICIO</title>
+    <title>LOGIN DO FRANGO</title>
     <!-- Adicionando o CSS do Sequelized -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <style>
@@ -28,10 +26,8 @@
 </head>
 <body>
     <div class="container">
-        <h2>SEJA BEM VINDO {{ username }}!</h2>
-        <p>ESSA É UMA PAGINA GENERICA DA SUA APLICAÇÃO! VOCÊ PODE PERSONALIZAR CONFORME O NECESSÁRIO!</p>
-        <a class="waves-effect waves-light btn" href="/logout">LOGOUT</a>
-        <a class="waves-effect waves-light btn" href="/">HOME</a>
+        <h2>BORA PRO TREINO!</h2>
+        <li><a class="btn waves-effect waves-light" href="{{ url_for('cadastro') }}">AINDA NÃO TENHO USUÁRIO</a>
     </div>
 </body>
 </html>
